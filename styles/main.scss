@@ -1,0 +1,40 @@
+@use "vuetify/lib/components/VGrid/VGrid";
+@use "vuetify/styles";
+
+.row {
+  @extend .v-row;
+}
+.col {
+  @extend .v-col;
+}
+
+.flex {
+  @extend .d-flex;
+}
+
+.q-ml-md {
+  @extend .ms-4;
+}
+
+.q-gutter-x-sm {
+  @extend .ga-2;
+}
+
+.q-mt-xs {
+  @extend .mt-2;
+}
+.full-width {
+  @extend .w-100;
+}
+.hidden {
+  display: none;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    @extend .v-col-#{$i};
+  }
+  .col-md-#{$i} {
+    @extend .v-col-md-#{$i};
+  }
+}
