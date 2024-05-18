@@ -1,3 +1,4 @@
+/*rtl:begin:ignore*/
 @use "vuetify/lib/components/VGrid/VGrid";
 @use "vuetify/styles";
 
@@ -38,3 +39,4 @@
     @extend .v-col-md-#{$i};
   }
 }
+/*rtl:end:ignore*/
