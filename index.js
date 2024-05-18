@@ -14,6 +14,7 @@ import QSpace from "./components/QSpace.vue";
 import QAvatar from "./components/QAvatar.vue";
 import QLayout from "./components/QLayout.vue";
 import QPageContainer from "./components/QPageContainer.vue";
+import QPage from "./components/QPage.vue";
 
 const quasarToVuetify = {
   install(app) {
@@ -33,6 +34,7 @@ const quasarToVuetify = {
     app.component("q-avatar", QAvatar);
     app.component("q-layout", QLayout);
     app.component("q-page-container", QPageContainer);
+    app.component("q-page", QPage);
   },
 };
 
